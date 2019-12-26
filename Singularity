@@ -26,3 +26,4 @@ conda config --add channels r
 conda config --add channels bioconda
 
 conda install -c bioconda tb-profiler=2.8.0
+conda uninstall gatk
