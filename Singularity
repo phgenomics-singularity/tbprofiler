@@ -7,7 +7,7 @@ A Singularity image for TB-profiler
 %labels
 Maintainer Kristy Horan
 Build 1.0
-tb-profiler v2.8.0
+tb-profiler v2.8.1
 
 %environment
 export PATH=/opt/conda/bin:$PATH
@@ -25,5 +25,5 @@ conda config --add channels defaults
 conda config --add channels r
 conda config --add channels bioconda
 
-conda install -c bioconda tb-profiler=2.8.0
+conda install -c bioconda tb-profiler=2.8.1
 
